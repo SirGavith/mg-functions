@@ -1,0 +1,22 @@
+{
+  "name": "mg-functions",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@angular/core": "^13.3.3",
+    "ng": "^0.0.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "@azure/functions": "^3.0.0",
+    "@types/pg": "^8.6.5",
+    "typescript": "^4.6.3"
+  }
+}
